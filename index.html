@@ -2,7 +2,7 @@
     <style>
         /* 全局字体设置 */
         body {
-            font-size: 14px;  /* 调整整体字体大小 */
+            font-size: 14px;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -11,27 +11,27 @@
 
         /* 主要内容表格 */
         table {
-            width: 90%;  /* 让整个页面更宽 */
-            max-width: 1200px; /* 最大宽度 */
-            margin: 0 auto; /* 居中显示 */
+            width: 90%; 
+            max-width: 1200px;
+            margin: 0 auto; 
             border-collapse: collapse;
         }
 
         td {
-            padding: 15px;  /* 让内容更紧凑 */
+            padding: 15px; 
             text-align: left;
         }
 
         /* 标题调整 */
         h2 {
-            font-size: 18px; /* 让标题稍小 */
+            font-size: 18px; 
             text-align: left;
             padding-left: 20px;
         }
 
         /* 个人信息部分 */
         .profile-name {
-            font-size: 30px; /* 让名字稍小 */
+            font-size: 30px; 
         }
 
         /* 链接样式 */
@@ -47,8 +47,33 @@
 
         /* 访问地图调整 */
         .click-map img {
-            width: 250px;  /* 调整地图大小 */
+            width: 250px;
             height: 180px;
+        }
+
+        /* Publications section layout */
+        .publications-table {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .publication-item {
+            width: 48%; /* Use a percentage to ensure they fit side by side */
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .publication-item img {
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+        }
+
+        .publication-item .publication-info {
+            flex: 1;
         }
     </style>
 </head>
@@ -83,70 +108,60 @@
                 <hr />
 
                 <h2>Publications and Preprints</h2>
-                <table>
-                    <tr>
-                        <td width="30%" align="center">
-                            <img class="publication-img" src="./images/egotextvqa.png" alt="EgoTextVQA">
-                        </td>
-                        <td width="70%">
-                            <strong>EgoTextVQA: Towards Egocentric Scene-Text Aware Video Question Answering</strong>
-                            <br>
+                <div class="publications-table">
+                    <div class="publication-item">
+                        <img class="publication-img" src="./images/egotextvqa.png" alt="EgoTextVQA">
+                        <div class="publication-info">
+                            <strong>EgoTextVQA: Towards Egocentric Scene-Text Aware Video Question Answering</strong><br>
                             **Sheng Zhou**, Junbin Xiao, Qingyun Li, Yicong Li, Xun Yang, Dan Guo, Meng Wang, Tat Seng Chua, Angela Yao
-                            <br>
-                            <div class="item-meta col-12 col-md-12 col-lg-14">
-                                [ <a href="https://arxiv.org/abs/2502.07411">CVPR'25</> 
-                                / <a href="https://zhousheng97.github.io/EgoTextVQA_page/">Project Page</>
+                            <div class="item-meta">
+                                [ <a href="https://arxiv.org/abs/2502.07411">CVPR'25</a> 
+                                / <a href="https://zhousheng97.github.io/EgoTextVQA_page/">Project Page</a>
                                 / <a href="https://github.com/zhousheng97/EgoTextVQA">Data and Code</a>
-                                / <a href="">Cite</a>]
-                            </div>      
-                        </td>
+                                / <a href="">Cite</a> ]
+                            </div>   
+                        </div>
+                    </div>
 
-                        <td width="30%" align="center">
-                            <img class="publication-img" src="./images/vitxtgqa.png" alt="ViTXT-GQA">
-                        </td>
-                        <td width="70%">
-                            <strong>Scene-Text Grounding for Text-Based Video Question Answering</strong>
-                            <br>
+                    <div class="publication-item">
+                        <img class="publication-img" src="./images/vitxtgqa.png" alt="ViTXT-GQA">
+                        <div class="publication-info">
+                            <strong>Scene-Text Grounding for Text-Based Video Question Answering</strong><br>
                             **Sheng Zhou**, Junbin Xiao, Xun Yang, Peipei Song, Dan Guo, Angela Yao, Meng Wang, Tat-Seng Chua
-                            <br>
-                            <div class="item-meta col-12 col-md-12 col-lg-14">
-                                [ <a href="https://arxiv.org/abs/2409.14319">CVPR'25</> 
+                            <div class="item-meta">
+                                [ <a href="https://arxiv.org/abs/2409.14319">CVPR'25</a> 
                                 / <a href="https://github.com/zhousheng97/ViTXT-GQA">Data and Code</a>
-                                / <a href="">Cite</a>]
+                                / <a href="">Cite</a> ]
                             </div>   
-                        </td>
+                        </div>
+                    </div>
 
-                        <td width="30%" align="center">
-                            <img class="publication-img" src="./images/gpin.png" alt="GPIN">
-                        </td>
-                        <td width="70%">
-                            <strong>Graph Pooling Inference Network for Text-based VQA</strong>
-                            <br>
+                    <div class="publication-item">
+                        <img class="publication-img" src="./images/gpin.png" alt="GPIN">
+                        <div class="publication-info">
+                            <strong>Graph Pooling Inference Network for Text-based VQA</strong><br>
                             **Sheng Zhou**, Dan Guo, Xun Yang, Jianfeng Dong, Meng Wang
-                            <br>
-                            <div class="item-meta col-12 col-md-12 col-lg-14">
-                                [ <a href="https://dl.acm.org/doi/10.1145/3634918">ACM TOMM</> 
+                            <div class="item-meta">
+                                [ <a href="https://dl.acm.org/doi/10.1145/3634918">ACM TOMM</a> 
                                 / <a href="https://github.com/zhousheng97/GPIN">Code</a>
-                                / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:s8vewsJ3DIEJ:scholar.google.com/&output=citation&scisdr=ClHfKN6iEKHbin0abhE:AFWwaeYAAAAAZ8wcdhHFupsB6K0DC6lC2V8_fV8&scisig=AFWwaeYAAAAAZ8wcduR9824PiOiFMtiITL4_Ssw&scisf=4&ct=citation&cd=-1&hl=zh-CN">Cite</a>]
+                                / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:s8vewsJ3DIEJ:scholar.google.com/&output=citation&scisdr=ClHfKN6iEKHbin0abhE:AFWwaeYAAAAAZ8wcdhHFupsB6K0DC6lC2V8_fV8&scisig=AFWwaeYAAAAAZ8wcduR9824PiOiFMtiITL4_Ssw&scisf=4&ct=citation&cd=-1&hl=zh-CN">Cite</a> ]
                             </div>   
-                        </td>
+                        </div>
+                    </div>
 
-                        <td width="30%" align="center">
-                            <img class="publication-img" src="./images/ssgn.png" alt="SSGN">
-                        </td>
-                        <td width="70%">
-                            <strong>Exploring Sparse Spatial Relation in Graph Inference for Text-Based VQA</strong>
-                            <br>
+                    <div class="publication-item">
+                        <img class="publication-img" src="./images/ssgn.png" alt="SSGN">
+                        <div class="publication-info">
+                            <strong>Exploring Sparse Spatial Relation in Graph Inference for Text-Based VQA</strong><br>
                             **Sheng Zhou**, Dan Guo, Jia Li, Xun Yang, Meng Wang
-                            <br>
-                            <div class="item-meta col-12 col-md-12 col-lg-14">
-                                [ <a href="https://ieeexplore.ieee.org/document/10241306">IEEE TIP</> 
+                            <div class="item-meta">
+                                [ <a href="https://ieeexplore.ieee.org/document/10241306">IEEE TIP</a> 
                                 / <a href="https://github.com/zhousheng97/SSGN">Code</a>
-                                / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:CYa7VAxZrIsJ:scholar.google.com/&output=citation&scisdr=ClHHg-wHEKHbin0bq6I:AFWwaeYAAAAAZ8wds6KvJYXXchKN5x59CRon7Vs&scisig=AFWwaeYAAAAAZ8wds50FmgspN0j_OTxWbfu1QoM&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">Cite</a>]
+                                / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:CYa7VAxZrIsJ:scholar.google.com/&output=citation&scisdr=ClHHg-wHEKHbin0bq6I:AFWwaeYAAAAAZ8wds6KvJYXXchKN5x59CRon7Vs&scisig=AFWwaeYAAAAAZ8wds50FmgspN0j_OTxWbfu1QoM&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">Cite</a> ]
                             </div>  
-                        </td>
-                    </tr>
-                </table>
+                        </div>
+                    </div>
+                </div>
 
                 <hr />
 
