@@ -90,37 +90,33 @@ body {
 }
 
 /* 更改一些重要元素的样式 */
-/* td, th, tr, p, a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
-} */
 
 td{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 th{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 tr{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 p{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 a{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 li{
-  font-size: 18px; /* 你可以调整为 20px 或其他大小 */
+  font-size: 22px; /* 你可以调整为 20px 或其他大小 */
 }
 
 heading {
