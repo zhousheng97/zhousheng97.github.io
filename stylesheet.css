@@ -92,12 +92,12 @@ body {
 /* 更改一些重要元素的样式 */
 td, th, tr, p, a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 heading {
@@ -107,7 +107,7 @@ heading {
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 800;
 }
 
