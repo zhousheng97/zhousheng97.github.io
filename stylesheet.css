@@ -74,12 +74,7 @@ a:hover {
   text-decoration: none;
 }
 
-body {
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-}
-
+body,
 
 td,
 th,
