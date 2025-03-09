@@ -75,12 +75,11 @@ a:hover {
 }
 
 body {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
-  max-width: 1800px; /* 限制最大宽度，避免内容过宽 */
-  width: 90%; /* 让内容占据 90% 的屏幕 */
-  margin: 0 auto; /* 居中 */
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
 }
+
 
 td,
 th,
