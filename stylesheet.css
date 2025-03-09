@@ -79,7 +79,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   max-width: 100%; /* 设置最大宽度为 100% */
 }
 
@@ -93,30 +93,30 @@ body {
 
 td{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 th{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 tr{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 p{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 a{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 li{
-  font-size: 22px; /* 你可以调整为 20px 或其他大小 */
+  font-size: 20px; /* 你可以调整为 20px 或其他大小 */
 }
 
 heading {
