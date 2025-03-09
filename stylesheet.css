@@ -74,15 +74,25 @@ a:hover {
   text-decoration: none;
 }
 
-body,
-
-td,
-th,
-tr,
-p,
-a {
+/* 设置 body 的 margin 和 padding */
+body {
+  margin: 0;
+  padding: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px
+  font-size: 16px;
+  max-width: 100%; /* 设置最大宽度为 100% */
+}
+
+/* 调整页面宽度，增加内容显示区域 */
+.container {
+  width: 95%; /* 设置为页面宽度的 95% */
+  margin: 0 auto; /* 使其居中 */
+}
+
+/* 更改一些重要元素的样式 */
+td, th, tr, p, a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 strong {
@@ -98,7 +108,7 @@ heading {
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 18px;
-  font-weight: 800
+  font-weight: 800;
 }
 
 name {
@@ -106,26 +116,27 @@ name {
   font-size: 36px;
 }
 
-.one {
-  width: 160px;
-  height: 160px;
+/* 调整元素的宽度 */
+.one, .two {
+  width: 95%; /* 调整元素宽度 */
+  margin: 0 auto; /* 使元素居中 */
+  height: auto;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
   position: absolute;
   transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
 }
 
 .fade {
   transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
 }
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
 
 span.highlight {
   background-color: #ffffd0;
