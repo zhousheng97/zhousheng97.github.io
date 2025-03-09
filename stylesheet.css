@@ -90,11 +90,31 @@ body {
 }
 
 /* 更改一些重要元素的样式 */
-td, th, tr, p, a {
+/* td, th, tr, p, a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+} */
+
+td{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 18px;
 }
-
+th{
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+}
+tr{
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+}
+p{
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+}
+a{
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+}
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 18px;
