@@ -120,23 +120,23 @@ strong {
   font-size: 18px;
 }
 li{
-  font-size: 22px; /* 你可以调整为 20px 或其他大小 */
+  font-size: 18px; /* 你可以调整为 20px 或其他大小 */
 }
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 34px;
 }
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
 }
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 36px;
+  font-size: 38px;
 }
 
 /* 调整元素的宽度 */
