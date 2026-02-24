@@ -106,7 +106,6 @@ tr{
 p{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size:18px;
-  line-height:3;
 }
 a{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
@@ -118,7 +117,6 @@ strong {
 }
 li{
   font-size:18px; /* 你可以调整为 20px 或其他大小 */
-  line-height:3;
 }
 
 heading {
