@@ -118,6 +118,7 @@ strong {
 }
 li{
   font-size:18px; /* 你可以调整为 20px 或其他大小 */
+  line-height:1.7;
 }
 
 heading {
