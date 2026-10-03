@@ -13,7 +13,7 @@
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
     {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
+    <abbr class="badge {% if link.conference_short == 'TMM' or link.conference_short == 'TOMM' or link.conference_short == 'TIP' %}badge-journal{% else %}badge-conf{% endif %}">{{ link.conference_short }}</abbr>
     {% endif %}
     {% endif %}
   </div>
