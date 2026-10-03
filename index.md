@@ -11,7 +11,7 @@ layout: homepage
 
 ## Research
 
-My research aims to develop AI systems that understand complex visual environments and bridge vision and language. My interests include Video Understanding, Visual Question Answering, and Visual Grounding. Recently, I focus on ***Video Understanding and Multimodal LLM for real-world and healthcare applications***, with an emphasis on efficiency, interpretability, and trustworthy AI. My goal is to build intelligent systems that understand the real world, support human decision-making, and enable effective human–AI interaction. I am actively seeking Research Interns/Research Assistants/Visiting Students with backgrounds in CV/NLP/Multimodal.
+My research aims to develop AI systems that understand complex visual environments and bridge vision and language. My interests include Video Understanding, Visual Question Answering, and Visual Grounding. Recently, I focus on ***Video Understanding and Multimodal LLM for real-world and healthcare applications***, with an emphasis on efficiency, interpretability, and trustworthy AI. My goal is to build intelligent systems that understand the real world, support human decision-making, and enable effective human–AI interaction. <span class="recruit-highlight">I am actively seeking Research Interns/Visiting Students with backgrounds in CV/NLP/Multimodal.</span>
 
 ## News
 
@@ -37,6 +37,8 @@ My research aims to develop AI systems that understand complex visual environmen
 
 {% include_relative _includes/publications.md %}
 
+{% include_relative _includes/services.md %}
+
 ## Selected Honors and Awards
 
 - **[2025.02]** Tat-Seng Chua Scholarship
@@ -44,5 +46,3 @@ My research aims to develop AI systems that understand complex visual environmen
 - **[2020 - 2022]** Second Class Academic Scholarship (two times)
 - **[2020]** Outstanding Graduate of Innovation and Entrepreneurship in Hunan Province
 - **[2016 - 2019]** National Encouragement Scholarship (three times)
-
-{% include_relative _includes/services.md %}
