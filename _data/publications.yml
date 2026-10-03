@@ -1,0 +1,54 @@
+main:
+
+  - title: "SafeGuard: A Multi-Agent Perception-Reasoning Framework for Social-Risk AI-Generated Video Detection"
+    authors: Wenlin Wu*, <strong>Sheng Zhou*</strong>, Peipei Song, Wenhao Wang, Junbin Xiao†, Xun Yang†
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2607.03069
+    code: https://github.com/williamw99/SafeGuard
+    dataset: https://github.com/williamw99/SafeGuard
+    image: ./assets/img/pubs/safeguard.png
+
+  - title: "RealUnify: Do Unified Models Truly Benefit from Unification? A Comprehensive Benchmark"
+    authors: Yang Shi#, Yuhao Dong#, Yue Ding#, Yuran Wang#, Xuanyu Zhu#, <strong>Sheng Zhou#</strong>, Wenting Liu#, Haochen Tian#, Rundong Wang#, Huanqian Wang, Zuyan Liu, Bohan Zeng, Ruizhe Chen, Qixun Wang, Zhuoran Zhang, Xinlong Chen, Chengzhuo Tong, Bozhou Li, Qiang Liu, Haotian Wang†, Wenjing Yang, Yuanxing Zhang†, Pengfei Wan, YiFan Zhang†, Ziwei Liu†
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2509.24897
+    code: https://github.com/FrankYang-17/RealUnify
+    dataset: https://huggingface.co/datasets/DogNeverSleep/RealUnify
+    image: ./assets/img/pubs/realunify.png
+
+  - title: "EgoTextVQA: Towards Egocentric Scene-Text Aware Video Question Answering"
+    authors: <strong>Sheng Zhou</strong>, Junbin Xiao†, Qingyun Li, Yicong Li, Xun Yang, Dan Guo, Meng Wang, Tat-Seng Chua, Angela Yao
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2502.07411
+    code: https://github.com/zhousheng97/EgoTextVQA
+    page: https://zhousheng97.github.io/EgoTextVQA_page/
+    dataset: https://github.com/zhousheng97/EgoTextVQA
+    image: ./assets/img/pubs/egotextvqa.png
+
+  - title: Scene-Text Grounding for Text-Based Video Question Answering
+    authors: <strong>Sheng Zhou</strong>, Junbin Xiao†, Xun Yang†, Peipei Song, Dan Guo†, Angela Yao, Meng Wang, Tat-Seng Chua
+    conference_short: TMM
+    conference: IEEE Transactions on Multimedia <strong>(TMM)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2409.14319
+    code: https://github.com/zhousheng97/ViTXT-GQA
+    dataset: https://github.com/zhousheng97/ViTXT-GQA
+    image: ./assets/img/pubs/vitxtgqa.png
+
+  - title: Graph Pooling Inference Network for Text-based VQA
+    authors: <strong>Sheng Zhou</strong>, Dan Guo†, Xun Yang†, Jianfeng Dong, Meng Wang†
+    conference_short: TOMM
+    conference: ACM Transactions on Multimedia Computing, Communications and Applications <strong>(TOMM)</strong>, 2024.
+    pdf: https://dl.acm.org/doi/10.1145/3634918
+    code: https://github.com/zhousheng97/GPIN
+    image: ./assets/img/pubs/gpin.png
+
+  - title: Exploring Sparse Spatial Relation in Graph Inference for Text-Based VQA
+    authors: <strong>Sheng Zhou</strong>, Dan Guo†, Jia Li, Xun Yang†, Meng Wang†
+    conference_short: TIP
+    conference: IEEE Transactions on Image Processing <strong>(TIP)</strong>, 2023.
+    pdf: https://arxiv.org/abs/2310.09147
+    code: https://github.com/zhousheng97/SSGN
+    image: ./assets/img/pubs/ssgn.png

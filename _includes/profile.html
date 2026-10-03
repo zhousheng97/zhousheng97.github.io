@@ -1,0 +1,62 @@
+{% if site.avatar %}
+<a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+{% endif %}
+
+<h1>{{ site.title }}</h1>
+
+{% if site.position %}
+<position style="font-size:1.10rem;">{{ site.position }}</position>
+<br>
+{% endif %}
+{% if site.affiliation %}
+<a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+<br>
+{% endif %}
+{% if site.school_email %}
+<email>{{ site.school_email }}</email>
+<br>
+{% endif %}
+{% if site.email %}
+<email>{{ site.email }}</email>
+{% endif %}
+
+<br>
+<br>
+<div class="social-icons">
+{% if site.google_scholar %}
+<a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" title="Google Scholar">
+  <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+</a>
+{% endif %}
+
+{% if site.openreview %}
+<a style="margin: 0 5px 0 0" href="{{ site.openreview }}" title="OpenReview">
+  <svg viewBox="0 0 24 24" width="1.15em" height="1.15em" style="vertical-align:-0.15em" fill="currentColor" aria-label="OpenReview"><rect x="1.5" y="1.5" width="21" height="21" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><text x="12" y="16.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700">OR</text></svg>
+</a>
+{% endif %}
+
+{% if site.cv_link %}
+<a style="margin: 0 5px 0 0" href="{{ site.cv_link }}" title="CV">
+  <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+</a>
+{% endif %}
+
+{% if site.github_link %}
+<a style="margin: 0 5px 0 0" href="{{ site.github_link }}" title="GitHub">
+  <i class="fab fa-github"></i>
+</a>
+{% endif %}
+
+{% if site.linkedin %}
+<a style="margin: 0 5px 0 0" href="{{ site.linkedin }}" title="LinkedIn">
+  <i class="fab fa-linkedin"></i>
+</a>
+{% endif %}
+
+{% if site.twitter %}
+<a style="margin: 0 0 0 0" href="{{ site.twitter }}" title="X">
+  <i class="fab fa-x-twitter"></i>
+</a>
+{% endif %}
+</div>
+<br>

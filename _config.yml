@@ -1,0 +1,41 @@
+# Basic Information
+title: Sheng Zhou (周晟)
+position: Postdoctoral Researcher
+affiliation: King Abdullah University of Science and Technology (KAUST)
+affiliation_link: https://www.kaust.edu.sa/en/
+school_email: sheng.zhou.1 (at) kaust.edu.sa
+email: hzgn97 (at) gmail.com
+
+# Search Engine Optimization (SEO)
+keywords: Sheng Zhou, 周晟, KAUST, video understanding, visual question answering, multimodal LLM, egocentric video
+description: Sheng Zhou is a Postdoctoral Researcher at KAUST working on video understanding, visual question answering and multimodal LLMs.
+canonical: https://zhousheng97.github.io/
+
+# Links
+# If you don't need one of them, you may delete the corresponding line.
+google_scholar: https://scholar.google.com/citations?user=7r9ejvcAAAAJ&hl=zh-CN
+openreview: https://openreview.net/profile?id=~Sheng_Zhou4
+github_link: https://github.com/zhousheng97
+linkedin: https://www.linkedin.com/in/sheng-zhou-a0a505346/
+twitter: https://x.com/hzgn97
+
+# Images (profile picture and favicon for light / dark mode)
+avatar: ./assets/img/avatar.jpg
+favicon: ./assets/img/avatar.jpg
+favicon_dark: ./assets/img/avatar.jpg
+
+# Footnote: "Powered by Jekyll and Minimal Light theme."
+enable_footnote: true
+
+# Auto Dark Mode
+auto_dark_mode: true
+
+# Font: "Serif" or "Sans Serif"
+font: "Serif"
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

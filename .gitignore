@@ -1,0 +1,10 @@
+_site
+.sass-cache
+Gemfile.lock
+*.gem
+.DS_Store
+.jekyll-cache
+git-update.sh
+
+# Local backup of the previous hand-written homepage (also in git history)
+_old_site/
