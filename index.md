@@ -28,7 +28,7 @@ I currently focus on **Video Understanding and Multimodal Large Language Models 
 - **[Apr. 2026]** Invited as Area Chair for the [Any-to-Any Multimodal Learning (A2A-ML) Workshop](https://any2any-mllm.github.io/workshop-cvpr26/) at CVPR 2026.
 - **[Feb. 2026]** *One paper* is accepted by **CVPR'26**. 🎉
 - **[Nov. 2025]** Successfully defended my Ph.D. 🎓 Thesis: Research on Scene Text-Driven Visual Question Answering.
-- **[May. 2025]** Our work EgoTextVQA will be presented at the [Egocentric Vision (EgoVis) Workshop](https://egovis.github.io/cvpr25/) and [Vision-based Assistants in the Real-World (VAR) Workshop](https://varworkshop.github.io/challenges/) @ CVPR 2025! 😄
+- **[May. 2025]** Our work EgoTextVQA will be presented at the [Egocentric Vision (EgoVis) Workshop](https://egovis.github.io/cvpr25/) and [Vision-based Assistants in the Real-World (VAR) Workshop](https://varworkshop.github.io/challenges/) @ CVPR 2025!
 - **[May. 2025]** *One paper* is accepted by **IEEE TMM'25**. 🎉
 - **[Feb. 2025]** *One paper* is accepted by **CVPR'25**. 🎉
 - **[Feb. 2025]** I am honored to receive the Tat-Seng Chua Scholarship.
