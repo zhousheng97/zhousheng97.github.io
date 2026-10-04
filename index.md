@@ -11,7 +11,11 @@ layout: homepage
 
 ## Research
 
-My research aims to develop AI systems that understand complex visual environments and bridge vision and language. My interests include Video Understanding, Visual Question Answering, and Visual Grounding. Recently, I focus on ***Video Understanding and Multimodal LLM for real-world and healthcare applications***, with an emphasis on efficiency, interpretability, and trustworthy AI. My goal is to build intelligent systems that understand the real world, support human decision-making, and enable effective human–AI interaction. <span class="recruit-highlight">I am actively seeking Research Interns/Visiting Students with backgrounds in CV/NLP/Multimodal.</span>
+My research focuses on developing AI systems that can understand complex visual environments and effectively bridge vision and language. My research interests include **Video Understanding, Visual Question Answering, and Visual Grounding**.
+
+I currently focus on **Video Understanding and Multimodal Large Language Models (MLLMs)** for real-world and healthcare applications, with an emphasis on **efficiency, interpretability, and trustworthy AI**. My goal is to build intelligent systems that can perceive and reason about the real world, support human decision-making, and enable effective human–AI interaction.
+
+<span class="recruit-highlight"><strong>I am actively seeking Research Interns and Visiting Students with backgrounds in Computer Vision, NLP, or Multimodal Learning.</strong></span>
 
 ## News
 
